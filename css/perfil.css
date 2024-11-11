@@ -1,0 +1,9 @@
+
+
+/* Posiciona el texto "S.C.F" de forma flotante */
+.floating-brand {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde la parte superior */
+    left: 20px; /* Ajusta la distancia desde el borde izquierdo */
+    z-index: 10;
+}
