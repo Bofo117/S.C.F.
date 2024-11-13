@@ -177,7 +177,7 @@ footer .text-center p {
                             <a class="nav-link" href="../html/gastos_gestion.php">Gastos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../html/consultas.php">Consultar</a>
+                            <a class="nav-link active" href="../html/consultas.php">Consultar</a>
                         </li>
                     </ul>
 

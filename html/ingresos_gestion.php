@@ -182,7 +182,7 @@ footer .text-center p {
                     <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="../html/index.html">Inicio</a></li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../html/ingresos_gestion.php">Ingresos</a>
+                            <a class="nav-link active" href="../html/ingresos_gestion.php">Ingresos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../html/gastos_gestion.php">Gastos</a>
