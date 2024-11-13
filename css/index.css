@@ -21,13 +21,11 @@ body::before {
     left: -100px;
 }
 
-/* body::after {
-    width: 400px;
-    height: 400px;
-    background-color: #3b4f69;
-    bottom: -150px;
-    right: -150px;
-} */
+.boton {
+    text-decoration: none;
+    color: #fcfeff;
+    font-size: 16px;
+}
 
 header::before, footer::before {
     content: "";

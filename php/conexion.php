@@ -3,7 +3,7 @@
 define("HOST", 'localhost');
 define("BD", 'control_financiero');
 define("USER_BD", 'postgres');
-define("PASS_BD", '130115alan'); // Reemplaza con tu contraseña de PostgreSQL
+define("PASS_BD", '@SoyLaVerga24'); // Reemplaza con tu contraseña de PostgreSQL
 
 function conecta() {
     try {
