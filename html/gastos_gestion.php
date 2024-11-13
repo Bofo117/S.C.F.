@@ -116,6 +116,59 @@ h1 {
     align-items: center;
     background-color: #c0c5c9;
 }
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    padding: 40px 0;
+    color: #fff;
+}
+
+footer h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #1c74e9;
+}
+
+footer .container {
+    max-width: 1200px;
+}
+
+footer .row {
+    margin-bottom: 30px;
+}
+
+footer .col-md-4 {
+    margin-bottom: 30px;
+}
+
+footer .bi {
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+footer .bi:hover {
+    color: #1c74e9;
+}
+
+footer .text-center {
+    margin-top: 20px;
+}
+
+footer .text-center p {
+    font-size: 16px;
+}
+
     </style>
 </head>
 <body>
@@ -196,4 +249,41 @@ h1 {
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+<!-- Footer -->
+<footer class="footer mt-5">
+    <div class="container">
+        <div class="row text-center text-light">
+            <div class="col-md-4">
+                <h5 class="mb-3">S.C.F</h5>
+                <p>Todos los derechos reservados &copy; 2024</p>
+            </div>
+            <div class="col-md-4">
+                <h5 class="mb-3">Enlaces Rápidos</h5>
+                <ul class="list-unstyled">
+                    <li><a href="../html/index.html" class="text-light">Inicio</a></li>
+                    <li><a href="../html/ingresos_gestion.php" class="text-light">Gestión de Ingresos</a></li>
+                    <li><a href="../html/gastos_gestion.php" class="text-light">Gestión de Gastos</a></li>
+                    <li><a href="../html/consultas.php" class="text-light">Consultar</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5 class="mb-3">Contacto</h5>
+                <p><i class="bi bi-envelope"></i> contacto@scf.com</p>
+                <p><i class="bi bi-telephone"></i> +1 800 123 4567</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <p class="mt-3 mb-0">Síguenos en nuestras redes sociales:</p>
+                <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Agregar los iconos de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.js"></script>
+
 </html>
