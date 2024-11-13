@@ -43,21 +43,29 @@ $ingresos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">S.C.F</a>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
+        <!-- Menu -->
+        <nav class="navbar navbar-expand-lg menu">
+            <div class="container-fluid menu">
+                <a class="navbar-brand floating-brand" href="#">S.C.F</a>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="../html/index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="../html/ingresos_gestion.php">Ingresos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../html/gastos_gestion.php">Gastos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../html/cuentas.html">Cuentas</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../html/perfil.html">Perfil</a></li>
-                </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/ingresos_gestion.php">Ingresos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/gastos_gestion.php">Gastos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/consultas.php">Consultar</a>
+                        </li>
+                    </ul>
+
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
 
 <div class="container mt-4">
     <h1 class="text-center">Gestión de Ingresos</h1>
