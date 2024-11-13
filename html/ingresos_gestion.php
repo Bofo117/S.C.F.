@@ -40,6 +40,83 @@ $ingresos = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/ingresos.css">
     <title>Gestión de Ingresos</title>
+    <style>
+        /* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    position: relative;
+    overflow-x: hidden;
+}
+/* Figuras de fondo */
+body::before, body::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+body::before {
+    width: 300px;
+    height: 300px;
+    background-color: #1c74e9;
+    top: -50px;
+    left: -100px;
+}
+
+header::before, footer::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+header::before {
+    width: 250px;
+    height: 250px;
+    background-color: #3b4f69;
+    top: 0;
+    left: -120px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #dee2e6;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    color: #6c757d;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #000;
+}
+
+/* Header */
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0c5c9;
+}
+    </style>
 </head>
 <body>
 <header>
