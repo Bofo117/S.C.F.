@@ -1,9 +1,175 @@
-
-
-/* Posiciona el texto "S.C.F" de forma flotante */
-.floating-brand {
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    position: relative;
+    overflow-x: hidden;
+}
+/* Figuras de fondo */
+body::before, body::after {
+    content: "";
     position: absolute;
-    top: 10px; /* Ajusta la distancia desde la parte superior */
-    left: 20px; /* Ajusta la distancia desde el borde izquierdo */
-    z-index: 10;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+body::before {
+    width: 300px;
+    height: 300px;
+    background-color: #1c74e9;
+    top: -50px;
+    left: -100px;
+}
+
+/* body::after {
+    width: 400px;
+    height: 400px;
+    background-color: #3b4f69;
+    bottom: -150px;
+    right: -150px;
+} */
+
+header::before, footer::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+header::before {
+    width: 250px;
+    height: 250px;
+    background-color: #3b4f69;
+    top: 0;
+    left: -120px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #dee2e6;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    color: #6c757d;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #000;
+}
+
+/* Header */
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0c5c9;
+}
+/* Container Central */
+.container_central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0c5c9;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.container_central .d-flex {
+    background-color: #f4f4f9;
+    padding: 2%;
+    border-radius: 15px;
+    margin: 2%;
+}
+
+.container_central h6 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.container_central p {
+    font-size: 16px;
+    color: #555;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Imagen */
+.container-fluid img {
+    width: 22rem;
+    height: 10rem;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer::before {
+    width: 25%;
+    height: 100%;
+    background-color: #1c74e9;
+    bottom: 0%;
+    /* left: -8%; */
+    right: -10%;
+}
+
+footer {
+    background-color: #c9d3e0;
+    padding: 40px 0;
+    position: relative;
+    z-index: 1;
+}
+
+footer h5 {
+    font-size: 18px;
+    color: #000000;
+}
+
+footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #374a5b;
+    font-size: 16px;
+}
+
+footer ul li a:hover {
+    color: #00a2ff;
 }
