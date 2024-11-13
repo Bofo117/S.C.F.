@@ -131,43 +131,59 @@ button:hover {
     border-radius: 10px;
 }
 
-/* Footer */
-footer::before {
-    width: 25%;
-    height: 100%;
-    background-color: #1c74e9;
-    bottom: 0%;
-    /* left: -8%; */
-    right: -10%;
-}
-
-footer {
-    background-color: #c9d3e0;
+/* Footer para Altas y Editar */
+footer.footer-alt-editar {
+    background-color: #2c3e50;
     padding: 40px 0;
-    position: relative;
-    z-index: 1;
+    color: #fff;
 }
 
-footer h5 {
-    font-size: 18px;
-    color: #000000;
+footer.footer-alt-editar h5 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
-footer ul {
-    padding: 0;
-    list-style-type: none;
-}
-
-footer ul li {
-    margin-bottom: 10px;
-}
-
-footer ul li a {
+footer.footer-alt-editar a {
     text-decoration: none;
-    color: #374a5b;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+footer.footer-alt-editar a:hover {
+    color: #1c74e9;
+}
+
+footer.footer-alt-editar .container {
+    max-width: 1200px;
+}
+
+footer.footer-alt-editar .row {
+    margin-bottom: 30px;
+}
+
+footer.footer-alt-editar .col-md-4 {
+    margin-bottom: 30px;
+}
+
+footer.footer-alt-editar .bi {
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+footer.footer-alt-editar .bi:hover {
+    color: #1c74e9;
+}
+
+footer.footer-alt-editar .text-center {
+    margin-top: 20px;
+}
+
+footer.footer-alt-editar .text-center p {
     font-size: 16px;
 }
 
-footer ul li a:hover {
-    color: #00a2ff;
+footer.footer-alt-editar .text-center a {
+    margin-right: 10px;
 }
